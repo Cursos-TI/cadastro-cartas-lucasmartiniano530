@@ -7,18 +7,22 @@
 int main() {
 /* Carta 1*/
 
-  char estado[2] = 'B';
-  char Codigo_da_carta[20] = "B01";
+  char estado[3] = "A";
+  char Codigo_da_carta[20] = "A01";
   char nome[20] = "Brasilia";
   int populacao = 200000;
   float area = 20000000;
   float pib = 3000000;
   int pontos_turisticos = 15;
 
-  printf("Digite o nome da cidade: ");
-  scanf("%s",&nome);
-  printf("O nome da cidade é: %s", nome);
-
-
+  printf("Carta SuperTrunfo\n");
+  printf("Estado: %s\n", estado);
+  printf("Codigo da carta: %s\n", Codigo_da_carta);
+  printf("Nome da cidade: %s\n", nome);
+  printf("Populacao total: %d\n", populacao);
+  printf("Area total: %f\n", area);
+  printf("PIB: %f\n", pib);
+  printf("Quantidade pontos turisticos: %d\n", pontos_turisticos);
+  
 return 0;
 } 
